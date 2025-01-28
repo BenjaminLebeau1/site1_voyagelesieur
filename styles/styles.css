@@ -126,17 +126,80 @@ h4{
     color: white;
 }
 
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.conteneur-transport {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
 
+article h3 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
 
-
-
-
-
+article p  {
+    text-align: center;
+}
 
 /*=================================================================================================================
 FOOTER
 /*=================================================================================================================*/
 footer{
-    background-color: black;
+   background-color: black;
+}
+
+.facebook a  {
+    background-image: url("../image/facebook-nb1.jpg");
+}
+.twitter a  {
+    background-image: url("../image/twitter-nb1.jpg");
+}
+
+.linkedin a  {
+    background-image: url("../image/linkedin-nb1.jpg");
+}
+
+.pinterest a  {
+    background-image: url("../image/pinterest-nb1.jpg");
+}
+
+.facebook a:hover {
+    background-image: url("../image/facebook-survol1.jpg");
+}
+.twitter a:hover {
+    background-image: url("../image/twitter-survol1.jpg");
+}
+
+.linkedin a:hover  {
+    background-image: url("../image/linkedin-survol1.jpg");
+}
+
+.pinterest a:hover {
+    background-image: url("../image/pinterest-survol1.jpg");
+}
+
+footer a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+footer ul  {
+    display: flex;
+    list-style-type: none;
+    gap : 20px;
+
+} 
+
+footer .wrapper  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
