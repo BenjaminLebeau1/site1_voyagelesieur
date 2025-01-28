@@ -78,10 +78,43 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-header li  {
+/*Section banniere*/
 
+.banniere {
+    background-color: #EEEEEE;
 }
 
+.banniere .wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+
+/*Section Transport*/
+
+.titre-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #D0D0D0;
+    background-color: #EEEEEE;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 nav .footer
 {
